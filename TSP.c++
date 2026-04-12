@@ -26,7 +26,6 @@ double fitness(vector<int> route) {
     return 1.0 / calculateDistance(route);
 }
 
-// 🔹 Generate random chromosome
 vector<int> randomRoute() {
     vector<int> route;
     for (int i = 0; i < N; i++) route.push_back(i);
