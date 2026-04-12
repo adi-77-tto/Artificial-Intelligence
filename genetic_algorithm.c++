@@ -96,7 +96,7 @@ int main() {
 
         for (auto &ind : population) {
             if (fitness(ind) == 28) {
-                cout << "\n✅ Solution Found: " << ind << endl;
+                cout << "\nSolution Found: " << ind << endl;
                 printBoard(ind);
                 return 0;
             }
